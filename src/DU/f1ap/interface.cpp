@@ -55,7 +55,7 @@ void F1apTask::sendF1SetupRequest()
 
     std::string *pdu = new std::string();
 
-    *pdu = "F1SetupReqeust|" + std::to_string(m_base->config->getDUId());
+    *pdu = "F1SetupRequest|" + std::to_string(m_base->config->getDUId());
 
 //        auto *pdu = asn::f1ap::NewMessagePdu<F1SetupRequest>(
 //            {ieGlobalCUId, ieRanNodeName, ieSupportedTaList, iePagingDrx});
