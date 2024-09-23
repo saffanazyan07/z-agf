@@ -4,7 +4,7 @@
 //
 // The software and all associated files are licensed under GPL-3.0
 // and subject to the terms and conditions defined in LICENSE file.
-//
+// updated 2024 with Zyzy
 
 #include "types.hpp"
 #include <utils/printer.hpp>
@@ -14,7 +14,7 @@ namespace nr::ue
 
 NasTimers::NasTimers()
     : t3346(3346, true, INT32_MAX), t3396(3396, false, INT32_MAX), t3444(3444, true, 12 * 60 * 60),
-      t3445(3445, true, 12 * 60 * 60), t3502(3502, true, 12 * 60), t3510(3510, true, 15), t3511(3511, true, 10),
+      t3445(3445, true, 12 * 60 * 60), t3502(3502, true, 12 * 60), t3510(3510, false, 15), t3511(3511, false, 10),
       t3512(3512, true, 54 * 60), t3516(3516, true, 30), t3517(3517, true, 15), t3519(3519, true, 60),
       t3520(3520, true, 15), t3521(3521, true, 15), t3525(3525, true, 60), t3540(3540, true, 10),
       t3584(3584, false, INT32_MAX), t3585(3585, false, INT32_MAX)
