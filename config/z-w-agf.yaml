@@ -11,7 +11,7 @@ gtpIp: 192.168.60.15    # gNB's local IP address for N3 Interface (Usually same 
 
 # List of CU address information
 cuConfigs:
-  - address: 192.168.60.14
+  - address: 192.168.60.141
     port: 38472
 
 # List of supported S-NSSAIs by this gNB
