@@ -46,9 +46,7 @@ UserEquipment::~UserEquipment()
     delete taskBase->rrcTask;
     delete taskBase->rlsTask;
     delete taskBase->appTask;
-
     delete taskBase->logBase;
-
     delete taskBase;
 }
 
